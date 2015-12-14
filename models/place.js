@@ -1,21 +1,16 @@
 //need mongoose for schema (bc mongo is schema-less); validations & restrictions
+//everything in model is singular
 var
 	mongoose = require('mongoose'),
 	Schema = mongoose.Schema
 
 
-var placesSchema = new Schema({
+var placeSchema = new Schema({
 	title: String,
 	address: String,
 	description: String
 })
 
-// var placesSchema = new Schema({
-// 	model: String,
-// 	make: String,
-// 	year: Number
-// })
+var Place = mongoose.model('Place', placeSchema)
 
-var Places = mongoose.model('Places', placesSchema)
-
-module.exports = Places
+module.exports = Place

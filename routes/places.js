@@ -2,10 +2,12 @@ var
 	express = require('express'),
 	apiRouter = express.Router()
 	mongoose = require('mongoose'),
-	Places = require('../models/places.js')
+	Places = require('../models/place.js'),
+	Place = require('../models/place.js')
+
 
 apiRouter.get('/', function(req,res){
-	res.json({message: "Api routes are working."})
+	res.json({message: "Api routes routes are working."})
 })
 
 apiRouter.route('/places')
@@ -15,13 +17,13 @@ apiRouter.route('/places')
 		})
 	})
 	.post(function(req,res){
-		var newPlaces = new Places
-		newPlaces.title = req.body.title
-		newPlaces.address = req.body.address
-		newPlaces.description = req.body.description
-		newPlaces.save(function(err, places){
+		var newPlace = new Place
+		newPlace.title = req.body.title
+		newPlace.address = req.body.address
+		newPlace.description = req.body.description
+		newPlace.save(function(err, place){
 			if(err) throw err
-			res.json({message: "Places Saved!", places: places})
+			res.json({message: "Place Saved!", place: place})
 		})
 	})
 
@@ -33,11 +35,5 @@ apiRouter.route('/places/:id')
 		})
 	})
 
-apiRouter.get('/destroy-all', function(req,res){
-	Places.remove({}, function(err){
-		if(err) throw err
-		res.json({message: 'All  destroyed! Booooom!'})
-	})
-})
 
 module.exports = apiRouter
