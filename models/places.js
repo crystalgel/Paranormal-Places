@@ -3,11 +3,18 @@ var
 	mongoose = require('mongoose'),
 	Schema = mongoose.Schema
 
+
 var placesSchema = new Schema({
-	model: String,
-	make: String,
-	year: Number
+	title: String,
+	address: String,
+	description: String
 })
+
+// var placesSchema = new Schema({
+// 	model: String,
+// 	make: String,
+// 	year: Number
+// })
 
 var Places = mongoose.model('Places', placesSchema)
 

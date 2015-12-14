@@ -16,9 +16,9 @@ apiRouter.route('/places')
 	})
 	.post(function(req,res){
 		var newPlaces = new Places
-		newPlaces.make = req.body.make
-		newPlaces.model = req.body.model
-		newPlaces.year = req.body.year
+		newPlaces.title = req.body.title
+		newPlaces.address = req.body.address
+		newPlaces.description = req.body.description
 		newPlaces.save(function(err, places){
 			if(err) throw err
 			res.json({message: "Places Saved!", places: places})
