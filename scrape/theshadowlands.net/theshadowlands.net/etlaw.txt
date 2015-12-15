@@ -1,0 +1,295 @@
+-CITE-
+    14 CFR PART 1211
+ 
+-EXPCITE-
+    Title 14
+    CHAPTER V
+    PART 1211
+ 
+-HEAD-
+    PART 1211 - EXTRATERRESTRIAL EXPOSURE
+ 
+-TEXT-
+    Sec.
+    1211.100 Scope.
+    1211.101 Applicability.
+    1211.102 Definitions.
+    1211.103 Authority.
+    1211.104 Policy.
+    1211.105 Relationship with Departments of Health, Education, and
+        Welfare and Agriculture.
+    1211.106 Cooperation with States, territories, and possessions.
+    1211.107 Court or other process.
+    1211.108 Violations.
+      Authority: Secs. 203, 304, 72 Stat. 429, 433; 42 U.S.C. 2455,
+    2456, 2473; 18 U.S.C. 799; Art. IX, TIAS 6347 (18 UST 2416).
+      Source: 34 FR 11975, July 16, 1969, unless otherwise noted.
+ 
+-CITE-
+    14 CFR Sec. 1211.100
+ 
+-EXPCITE-
+    Title 14
+    CHAPTER V
+    PART 1211
+ 
+-HEAD-
+    Sec. 1211.100 Scope.
+ 
+-TEXT-
+      This part establishes:
+      (a) NASA policy, responsibility and authority to guard the Earth
+    against any harmful contamination or adverse changes in its
+    environment resulting from personnel, spacecraft and other property
+    returning to the Earth after landing on or coming within the
+    atmospheric envelope of a celestial body; and
+      (b) Security requirements, restrictions and safeguards that are
+    necessary in the interest of the national security.
+ 
+-CITE-
+    14 CFR Sec. 1211.101
+ 
+-EXPCITE-
+    Title 14
+    CHAPTER V
+    PART 1211
+ 
+-HEAD-
+    Sec. 1211.101 Applicability.
+ 
+-TEXT-
+      The provisions of this part apply to all NASA manned and unmanned
+    space missions which land on or come within the atmospheric
+    envelope of a celestial body and return to the Earth.
+ 
+-CITE-
+    14 CFR Sec. 1211.102
+ 
+-EXPCITE-
+    Title 14
+    CHAPTER V
+    PART 1211
+ 
+-HEAD-
+    Sec. 1211.102 Definitions.
+ 
+-TEXT-
+      (a) NASA and the Administrator mean, respectively the National
+    Aeronautics and Space Administration and the Administrator of the
+    National Aeronautics and Space Administration or his authorized
+    representative (see Sec. 1204.509 of this chapter).
+      (b) Extraterrestrially exposed means the state or condition of
+    any person, property, animal or other form of life or matter
+    whatever, who or which has:
+      (1) Touched directly or come within the atmospheric envelope of
+    any other celestial body; or
+      (2) Touched directly or been in close proximity to (or been
+    exposed indirectly to) any person, property, animal or other form
+    of life or matter who or which has been extraterrestrially exposed
+    by virtue of paragraph (b)(1) of this section.
+      For example, if person or thing 'A' touches the surface of the
+    Moon, and on 'A's' return to the Earth, 'B' touches 'A' and,
+    subsequently, 'C' touches 'B,' all of these - 'A' through 'C'
+    inclusive - would be extraterrestrially exposed ('A' and 'B'
+    directly; 'C' indirectly).
+      (c) Quarantine means the detention, examination and
+    decontamination of any person, property, animal or other form of
+    life or matter whatever that is extraterrestrially exposed, and
+    includes the apprehension or seizure of such person, property,
+    animal or other form of life or matter whatever.
+      (d) Quarantine period means a period of consecutive calendar days
+    as may be established in accordance with Sec. 1211.104(a).
+      (e) United States means the 50 States, the District of Columbia,
+    the Commonwealth of Puerto Rico, the Virgin Islands, Guam, American
+    Samoa and any other territory or possession of the United States,
+    and in a territorial sense all places and waters subject to the
+    jurisdiction of the United States.
+ 
+-CITE- 
+    14 CFR Sec. 1211.103 
+  
+-EXPCITE- 
+    Title 14 
+    CHAPTER V 
+    PART 1211 
+  
+-HEAD- 
+    Sec. 1211.103 Authority. 
+  
+-TEXT- 
+      (a) Sections 203 and 304 of the National Aeronautics and Space 
+    Act of 1958, as amended (42 U.S.C. 2473, 2455 and 2456). 
+      (b) 18 U.S.C. 799. 
+      (c) Article IX, Outer Space Treaty, TIAS 6347 (18 UST 2416). 
+      (d) NASA Management Instructions 1052.90 and 8020.13. 
+  
+-CITE-
+    14 CFR Sec. 1211.104
+ 
+-EXPCITE-
+    Title 14
+    CHAPTER V
+    PART 1211
+ 
+-HEAD-
+    Sec. 1211.104 Policy.
+ 
+-TEXT-
+      (a) Administrative actions.  The Administrator or his designee as
+    authorized by Sec. 1204.509 of this chapter shall in his
+    discretion:
+      (1) Determine the beginning and duration of a quarantine period
+    with respect to any space mission; the quarantine period as it
+    applies to various life forms will be announced.
+      (2) Designate in writing quarantine officers to exercise
+    quarantine authority.
+      (3) Determine that a particular person, property, animal, or
+    other form of life or matter whatever is extraterrestrially exposed
+    and quarantine such person, property, animal, or other form of life
+    or matter whatever.  The quarantine may be based only on a
+    determination, with or without the benefit of a hearing, that there
+    is probable cause to believe that such person, property, animal or
+    other form of life or matter whatever is extraterrestrially
+    exposed.
+      (4) Determine within the United States or within vessels or
+    vehicles of the United States the place, boundaries, and rules of
+    operation of necessary quarantine stations.
+      (5) Provide for guard services by contract or otherwise, as may
+    be necessary, to maintain security and inviolability of quarantine
+    stations and quarantined persons, property, animals, or other form
+    of life or matter whatever.
+      (6) Provide for the subsistence, health, and welfare of persons
+    quarantined under the provisions of this part.
+      (7) Hold such hearings at such times, in such manner and for such
+    purposes as may be desirable or necessary under this part,
+    including hearings for the purpose of creating a record for use in
+    making any determination under this part or for the purpose of
+    reviewing any such determination.
+      (8) Cooperate with the Department of Health, Education, and
+    Welfare and the Department of Agriculture in accordance with the
+    provisions of Sec. 1211.105.
+      (9) Take such other actions as may be prudent or necessary and
+    which are consistent with this part.
+      (b) Quarantine. (1) During any period of announced quarantine,
+    the property within the posted perimeter of the Lunar Receiving
+    Laboratory at the Manned Spacecraft Center, Houston, Tex., is
+    designated as the NASA Lunar Receiving Laboratory Quarantine
+    Station.
+      (2) Other quarantine stations may be established if determined
+    necessary as provided in paragraph (a)(4) of this section.
+      (3) During any period of announced quarantine, no person shall
+    enter or depart from the limits of any quarantine station without
+    permission of the cognizant NASA quarantine officer.  During such
+    period, the posted perimeter of a quarantine station shall be
+    secured by armed guard.
+      (4) Any person who enters the limits of any quarantine station
+    during the quarantine period shall be deemed to have consented to
+    the quarantine of his person if it is determined that he is or has
+    become extraterrestrially exposed.
+      (5) At the earliest practicable time, each person who is
+    quarantined by NASA shall be given a reasonable opportunity to
+    communicate by telephone with legal counsel or other persons of his
+    choice.
+ 
+-CITE-
+    14 CFR Sec. 1211.105
+ 
+-EXPCITE-
+    Title 14
+    CHAPTER V
+    PART 1211
+ 
+-HEAD-
+    Sec. 1211.105 Relationship with Departments of Health, Education,
+        and Welfare and Agriculture.
+ 
+-TEXT-
+      (a) If either the Department of Health, Education, and Welfare or
+    the Department of Agriculture exercises its authority to quarantine
+    an extraterrestrially exposed person, property, animal, or other
+    form of life or matter whatever, NASA will, except as provided in
+    paragraph (c) of this section, not exercise the authority to
+    quarantine that same person, property, animal, or other form of
+    life or matter whatever.  In such cases, NASA will offer to these
+    departments the use of the Lunar Receiving Laboratory Quarantine
+    Station and such other service, equipment, personnel, and
+    facilities as may be necessary to ensure an effective quarantine.
+      (b) If neither the Department of Health, Education, and Welfare
+    or the Department of Agriculture exercises its quarantine
+    authority.  NASA shall exercise the authority to quarantine an
+    extraterrestrially exposed person, property, animal or other form
+    of life or matter whatever.  In such cases, NASA will inform these
+    departments of such quarantine action and, in addition, may request
+    the use of such service, equipment, personnel and facilities of
+    other Federal departments and agencies as may be necessary to
+    ensure an effective quarantine.
+      (c) NASA shall quarantine NASA astronauts and other NASA
+    personnel as determined necessary and all NASA property involved in
+    any space mission.
+ 
+-CITE-
+    14 CFR Sec. 1211.106
+ 
+-EXPCITE-
+    Title 14
+    CHAPTER V
+    PART 1211
+ 
+-HEAD-
+    Sec. 1211.106 Cooperation with States, territories, and
+        possessions.
+ 
+-TEXT-
+      Actions taken in accordance with the provisions of this part
+    shall be exercised in cooperation with the applicable authority of
+    any State, territory, possession or any political subdivision
+    thereof.
+ 
+-CITE-
+    14 CFR Sec. 1211.107
+ 
+-EXPCITE-
+    Title 14
+    CHAPTER V
+    PART 1211
+ 
+-HEAD-
+    Sec. 1211.107 Court or other process.
+ 
+-TEXT-
+      (a) NASA officers and employees are prohibited from discharging
+    from the limits of a quarantine station any quarantined person,
+    property, animal or other form of life or matter whatever during
+    order or other request, order or demand an announced quarantine
+    period in compliance with a subpoena, show cause of any court or
+    other authority without the prior approval of the General Counsel
+    and the Administrator.
+      (b) Where approval to discharge a quarantined person, property,
+    animal or other form of life or matter whatever in compliance with
+    such a request, order or demand of any court or other authority is
+    not given, the person to whom it is directed shall, if possible,
+    appear in court or before the other authority and respectfully
+    state his inability to comply, relying for his action upon this
+    Sec. 1211.107.
+ 
+-CITE-
+    14 CFR Sec. 1211.108
+ 
+-EXPCITE-
+    Title 14
+    CHAPTER V
+    PART 1211
+ 
+-HEAD-
+    Sec. 1211.108 Violations.
+ 
+-TEXT-
+      Whoever, willfully violates, attempts to violate, or conspires to
+    violate any provision of this part or any regulation or order
+    issued under this part or who enters or departs from the limits of
+    any quarantine station in disregard of the quarantine rules or
+    regulations or without permission of the NASA quarantine officer
+    shall be fined not more than $5,000 or imprisoned not more than 1
+    year, or both (18 U.S.C. 799).
+ 
+

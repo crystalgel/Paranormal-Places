@@ -8,6 +8,12 @@ apiRoutes = require('./routes/places'),
 
 port = process.env.PORT || 8080,
 
+app.set('view engine', 'ejs');
+
+app.get('/', function(req, res){
+ res.render('index',{user: "Great User",title:"homepage"});
+ });
+
 //'./routes/place.js', 'routes/users.js'),
 
 // configure app to use bodyParser()
@@ -51,6 +57,7 @@ mongoose.connect('mongodb://localhost/Paranormal-Places'
 	if(err) return console.log('Cannot connect :(')
 	console.log('Connected to MongoDB. Sweet!')
 })
+
 
 // START THE SERVER
 // =============================================================================

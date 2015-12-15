@@ -6,8 +6,8 @@ var
 
 
 var placeSchema = new Schema({
+	city: String,
 	title: String,
-	address: String,
 	description: String
 })
 
