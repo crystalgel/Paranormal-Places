@@ -10,9 +10,7 @@ port = process.env.PORT || 8080,
 
 app.set('view engine', 'ejs');
 
-app.get('/', function(req, res){
- res.render('index',{user: "Great User",title:"homepage"});
- });
+
 
 //'./routes/place.js', 'routes/users.js'),
 
@@ -34,9 +32,9 @@ router.use(function(req, res, next) {
 });
 
 // test route to make sure everything is working (accessed at GET http://localhost:8080/api)
-router.get('/', function(req, res) {
-    res.json({ message: 'hooray! welcome to our api!' });
-});
+// router.get('/', function(req, res) {
+//     res.json({ message: 'hooray! welcome to our api!' });
+// });
 
 // REGISTER OUR ROUTES -------------------------------
 // all of our routes will be prefixed with /api
@@ -58,6 +56,10 @@ mongoose.connect('mongodb://localhost/Paranormal-Places'
 	console.log('Connected to MongoDB. Sweet!')
 })
 
+app.get('/', function(req, res){
+ // res.render('index',{user: "Great User",title:"homepage"});
+ res.sendFile(__dirname + '/public/index.html')
+ });
 
 // START THE SERVER
 // =============================================================================

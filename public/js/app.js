@@ -1,26 +1,31 @@
 angular.module('paranormalApp', ['ngRoute'])
 	.directive('navBar', navBar)
-	.directive('carForm', carForm)
-	.filter('reverse', reverse)
+	// .directive('placeForm', placeForm)
+	.directive('searchForm', searchForm)
 
-function reverse() {
-	return function(items) {
-		return items.slice().reverse();
-	};
-}
-
-function carForm(){
-	var directive = {
-		restrict: 'E',
-		templateUrl: '/partials/car-form.html'
-	}
-	return directive
-}
 
 function navBar(){
 	var directive = {
 		restrict: 'E',
-		templateUrl: '/partials/nav.html',
+		templateUrl: 'partials/nav.html',
+		transclude: true
+	}
+	return directive
+}
+
+// function placeForm(){
+// 	var directive = {
+// 		restrict: 'E',
+// 		templateUrl: 'partials/place-list.html',
+// 		transclude: true
+// 	}
+// 	return directive
+// }
+//
+function searchForm(){
+	var directive = {
+		restrict: 'E',
+		templateUrl: 'partials/search.html',
 		transclude: true
 	}
 	return directive
