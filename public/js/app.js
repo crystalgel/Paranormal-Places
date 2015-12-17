@@ -1,8 +1,15 @@
-angular.module('paranormalApp', ['ngRoute'])
+angular.module('paranormalApp', ['ngRoute', 'mainCtrl', 'userCtrl', 'userService', 'authService'])
 	.directive('navBar', navBar)
 	// .directive('placeForm', placeForm)
 	.directive('searchForm', searchForm)
 
+	// application configuration to integrate token into requests
+	.config(function($httpProvider){
+
+		// attach our auth interceptor to the http requests
+		$httpProvider.interceptor.push('AuthInterceptor')
+
+	})
 
 function navBar(){
 	var directive = {
