@@ -1,11 +1,13 @@
-<div class="panel panel-default">
+<div class="panel panel-primary">
 	<div class="panel-heading">
 		<h3 class="panel-title">Scary Place Detail View!</h3>
 	</div>
 	<div class="panel-body">
-		<h1>{{ place.state }} {{ place.city }}</h1>
-		<h3><strong>Name</strong>: {{ place.title }}</h3>
-		<h3><strong>Description</strong>: {{ place.description }}</h3>
-		<h3><strong>ID</strong>: {{ place._id }}</h3>
+		<h1><strong>{{ place.title }}</strong></h1>
+		<h3>{{ place.city }} , {{ place.state }}</h3>
+		<div><h3><strong>The Story...</strong></h3>
+		<h3>{{ place.description }}</h3></div>
+		<p>id: {{ place._id }}</p>
 	</div>
 </div>
+

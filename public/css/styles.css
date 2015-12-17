@@ -1,0 +1,34 @@
+body {
+	background: gray; 
+}
+
+.container {
+	width: 1000px;
+}
+
+.col-md-3 {
+	background: white;
+}
+
+.panel-primary {
+	width: 800px; 
+}
+
+
+
+a.list-group-item, button.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #ffffff;
+    border: 1px solid #ecf0f1;
+
+}
+
+a.col-md-3 {
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 5;
+}
+
