@@ -65,10 +65,12 @@ mongoose.connect('mongodb://localhost/Paranormal-Places'
 	console.log('Connected to MongoDB. Sweet!')
 })
 
-app.get('/', function(req, res){
- // res.render('index',{user: "Great User",title:"homepage"});
- res.sendFile(__dirname + '/public/index.html')
- });
+
+app.get('*', function(req, res){
+	// res.render('index',{user: "Great User",title:"homepage"});
+	res.sendFile(__dirname + '/public/index.html')
+});
+
 
 // START THE SERVER
 // =============================================================================

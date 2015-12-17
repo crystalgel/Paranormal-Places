@@ -1,9 +1,7 @@
-<place-form></place-form>
-
 <h2 ng-show="placesCtrl.places.length">All the Scary Places:</h2>
 <div class="list-group">
-	<a ng-repeat="place in placesCtrl.places" href="#/places/{{ place._id }}" class="list-group-item">
-  		<h3 class="list-group-item-heading">{{ place.name }} {{ place.state }}</h3>
-  		<p class="list-group-item-text">{{ place.city }}</p>
-  	</a>
+	<a ng-repeat="place in places" href="/place/{{ place._id }}" class="list-group-item">
+		<h3 class="list-group-item-heading">{{ place.name }} {{ place.state }}</h3>
+		<p class="list-group-item-text">{{ place.city }}</p>
+	</a>
 </div>

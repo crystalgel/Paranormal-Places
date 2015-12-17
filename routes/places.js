@@ -15,6 +15,7 @@ var
 
 apiRouter.route('/places')
 	.get(function(req,res){
+		// modify find to have req.search
 		Place.find({}, function(err, place){
 			res.json(place)
 		})

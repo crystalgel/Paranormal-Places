@@ -1,5 +1,4 @@
-angular.module('paranormalApp')
-	.factory('places', places)
+angular.module('paranormalApp').factory('places', places)
 
 places.$inject = ['$http']
 
@@ -8,8 +7,8 @@ function places($http){
 	var placesUrl = '/api/places'
 	var places = {}
 
-	places.list = function(){
-		return $http.get(placesUrl)
+	places.list = function(search){
+		return $http.get(placesUrl + (search ? '?search=' + search : ''))
 	}
 
 	places.show = function(placeId){
