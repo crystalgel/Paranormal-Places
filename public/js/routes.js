@@ -5,8 +5,7 @@ app
 
 		// route for the home page
 		.when('/', {
-			templateUrl : 'partials/places-list.html',
-			controller: 'placesController'
+			templateUrl : 'partials/home.html',
 		})
 
 		.when('/places', {

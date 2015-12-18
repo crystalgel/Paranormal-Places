@@ -20,3 +20,28 @@ a.places-link {
 	width: 100%;
 	margin-top: 15px; 
 }
+
+.form-group {
+	margin-top: 300px;
+}
+
+.btn {
+	color: black;
+	font-size: 16px; 
+}
+
+.home-text {
+	color: white;
+	text-align: center; 
+}
+
+.home-text h1 {
+	font-size: 56px; 
+	margin-bottom: 40px; 
+
+}
+
+.home-text h2 {
+	font-size: 32px; 
+	margin-bottom: 40px; 
+}
