@@ -1,0 +1,22 @@
+<style>
+	body {
+		margin-top: 100px;
+		background: #333;
+		text-align: center;
+	}
+	.loader {
+		animation: 10s move infinite;
+		animation-timing-function: linear;
+		transform-origin: center center;
+		width: 100%;
+		position: absolute;
+		bottom: 20px;
+	}
+	@keyframes move {
+		from {margin-left: -55%}
+		to {margin-left: 55%}
+	}
+</style>
+<div class="loader">
+	<img src="ghost-loader.svg">
+</div>

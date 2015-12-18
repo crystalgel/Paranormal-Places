@@ -1,34 +1,14 @@
 body {
-	background: gray; 
+	background-image: url("/images/001.jpg");  
+	background-color: gray;
 }
 
-.container {
-	width: 1000px;
-}
-
-.col-md-3 {
+a.places-link {
 	background: white;
 }
 
-.panel-primary {
-	width: 800px; 
+
+.places-link img {
+	width: 100%;
+	margin-top: 15px; 
 }
-
-
-
-a.list-group-item, button.list-group-item {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    margin-bottom: -1px;
-    background-color: #ffffff;
-    border: 1px solid #ecf0f1;
-
-}
-
-a.col-md-3 {
-	color: #333333;
-	margin-top: 0;
-	margin-bottom: 5;
-}
-

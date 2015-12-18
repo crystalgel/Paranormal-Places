@@ -11,12 +11,9 @@ app.controller('placeDetailController', function (places, $routeParams, $scope) 
 	$scope.name = 'Place Detail'
 	$scope.place = null
 
-	var showPlace = function(placeId) {
-		places.show(placeId).success(function(response) {
-			$scope.place = response
-		})
-	}
-	showPlace($routeParams.placeId)
+	places.show($routeParams.placeId).success(function(response) {
+		$scope.place = response
+	})
 })
 
 app.controller('FetchController', function($scope, $location) {
@@ -24,3 +21,4 @@ app.controller('FetchController', function($scope, $location) {
 		$location.url('/places?search=' + $scope.search);
 	}
 })
+

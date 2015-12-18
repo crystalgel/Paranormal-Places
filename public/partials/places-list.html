@@ -1,5 +1,5 @@
 
-
+<!-- 
 <h2 ng-show="placesCtrl.places.length">All the Scary Places:</h2>
 <div class="list-group">
 	<a ng-repeat="place in places" href="/place/{{ place._id }}" class="list-group-item">
@@ -17,18 +17,15 @@
 		<h2 class="col-md-3-heading">{{ place.title }}</h2>
 		<p class="col-md-3-text"><strong>{{ place.city }}</strong></p>
 	</a>
-</div>
+</div> -->
 
-
+<h2 ng-show="placesCtrl.places.length">All the Scary Places:</h2>
 <div class="row">
-  <div class="col-sm-6 col-md-4" ng-repeat="place in places">
-    <div class="thumbnail">
-      <img src="..." alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
+	<a ng-repeat="place in places" href="/place/{{ place._id }}" class="places-link col-sm-6 col-md-4">
+		<img src="/images/{{ place._id }}.jpg">
+		<div class="caption">
+			<h3>{{ place.title }}</h3>
+			<p>{{ place.city }}</p>
+		</div>
+	</a>
 </div>
