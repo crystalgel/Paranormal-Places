@@ -6,22 +6,31 @@ app
 		// route for the home page
 		.when('/', {
 			templateUrl : 'partials/home.html',
+			action: 'home'
 		})
 
 		.when('/places', {
 			templateUrl : 'partials/places-list.html',
-			controller: 'placesController'
+			controller: 'placesController',
+			action: 'places'
 		})
 		.when('/place/:placeId', {
 			templateUrl: 'partials/place-detail.html',
-			controller: 'placeDetailController'
+			controller: 'placeDetailController',
+			action: 'place'
+		})
+		.when('/book/:placeId', {
+			templateUrl: 'partials/book-form.html',
+			controller: 'emptyController',
+			action: 'book'
 		})
 
 		// login page
 		.when('/login', {
 			templateUrl : 'partials/login.html',
 			controller  : 'mainController',
-			controllerAs: 'login'
+			controllerAs: 'login',
+			action: 'login'
 		})
 /*
 		// show all users

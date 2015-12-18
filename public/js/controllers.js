@@ -22,3 +22,7 @@ app.controller('FetchController', function($scope, $location) {
 	}
 })
 
+
+app.controller('emptyController', function($scope, $location) {
+
+})

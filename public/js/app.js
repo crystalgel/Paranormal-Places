@@ -7,6 +7,16 @@ var app = angular.module('paranormalApp', ['ngRoute', 'mainCtrl', 'userCtrl', 'u
 	.config(function($httpProvider){
 		// attach our auth interceptor to the http requests
 		$httpProvider.interceptors.push('AuthInterceptor')
+
+	})
+
+	.run(function($rootScope, $route) {
+		 $rootScope.$on('$routeChangeSuccess', function () {
+		 	var body = angular.element(document.getElementsByTagName('body')[0]);
+			body.removeClass(function (index, css) {
+				return (css.match (/\bpage-\S+/g) || []).join(' ');
+			}).addClass('page-' + $route.current.action);
+		});
 	})
 
 	function navBar(){

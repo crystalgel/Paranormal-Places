@@ -6,8 +6,15 @@
 		<h1><strong>{{ place.title }}</strong></h1>
 		<h3>{{ place.city }} , {{ place.state }}</h3>
 		<div><h3><strong>The Story...</strong></h3>
-		<h3>{{ place.description }}</h3></div>
-		<p>id: {{ place._id }}</p>
+			<h3>{{ place.description }}</h3></div>
+			<!-- <p>id: {{ place._id }}</p> -->
+			<div class="book-btn">
+				<a id="bookbtn" href="/book/{{place._id}}" class="btn btn-primary">Inquire about this Property</a> 
+			</div>
+
+		</div>
+
+
 	</div>
-</div>
+
 

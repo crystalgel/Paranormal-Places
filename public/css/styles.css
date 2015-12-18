@@ -1,10 +1,17 @@
 body {
-	background-image: url("/images/bg.jpg");
+	background: white;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-color: gray;
 	min-height: 100%; 
 	background-position: center center; 
+}
+
+body.page-home {
+	background-image: url("/images/bg.jpg");
+}
+
+.page-home .navbar-default {
+	background: none;
 }
 
 html {
@@ -22,17 +29,20 @@ a.places-link {
 }
 
 .form-group {
-	margin-top: 300px;
+	margin-top: 130px;
 }
 
-.btn {
+.home-text .btn {
 	color: black;
-	font-size: 16px; 
 }
 
 .home-text {
 	color: white;
 	text-align: center; 
+}
+
+h1, h2 {
+	font-family: Lato;
 }
 
 .home-text h1 {
@@ -42,8 +52,9 @@ a.places-link {
 }
 
 .home-text h2 {
-	font-size: 32px; 
-	margin-bottom: 40px; 
+	font-size: 30px; 
+	margin-bottom: 40px;
+	font-weight: 300;
 }
 
 .caption {
@@ -56,4 +67,21 @@ font-size: 22px;
 
 .row .ng-scope {
 	background: white;
+}
+
+.book-btn .btn {
+	color: white;
+}
+
+.loader {
+	animation: 10s move infinite;
+	animation-timing-function: linear;
+	transform-origin: center center;
+	width: 100%;
+	position: absolute;
+	bottom: 20px;
+}
+@keyframes move {
+	from {margin-left: -25%}
+	to {margin-left: 105%}
 }
