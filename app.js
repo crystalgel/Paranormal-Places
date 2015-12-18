@@ -59,7 +59,7 @@ app.use(bodyParser.json())
 app.use(express.static(__dirname + '/public'))
 
 // mongoose connection local
-mongoose.connect('mongodb://localhost/Paranormal-Places'
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/Paranormal-Places'
 	, function(err){
 	if(err) return console.log('Cannot connect :(')
 	console.log('Connected to MongoDB. Sweet!')
