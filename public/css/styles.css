@@ -45,3 +45,15 @@ a.places-link {
 	font-size: 32px; 
 	margin-bottom: 40px; 
 }
+
+.caption {
+	color: #004600;
+}
+
+.caption p {
+font-size: 22px;
+}
+
+.row .ng-scope {
+	background: white;
+}
