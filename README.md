@@ -4,6 +4,13 @@ Final Project for General Assembly, due Friday
 
 #User Stories: 
 
+App deployed on heroku: https://paranormalplaces.herokuapp.com/ 
+
+RESTful API endpoints: 
+- [/api/places](https://paranormalplaces.herokuapp.com/api/places) 
+- [/places/:id](https://paranormalplaces.herokuapp.com/api/places/567078ae4bdd810103709956)
+
+
 #Technologies:
 - mongodb
 - angular.js
@@ -14,6 +21,7 @@ Final Project for General Assembly, due Friday
 - facebook oauth API
 - mailgun or sendgrid
 - passport or jwt
+
 
 #Wireframes: 
 
