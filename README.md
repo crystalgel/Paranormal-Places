@@ -4,7 +4,8 @@ Final Project for General Assembly, due Friday
 
 ![image](https://cloud.githubusercontent.com/assets/5976989/11892604/967445a0-a51e-11e5-8b2c-4a176cd14c1b.png)
 
-App deployed on heroku: https://paranormalplaces.herokuapp.com/ 
+- App URL: http://mysteri.al
+- App deployed on heroku: https://paranormalplaces.herokuapp.com/ 
 
 #### RESTful API endpoints: 
 - [/api/places](https://paranormalplaces.herokuapp.com/api/places) 
