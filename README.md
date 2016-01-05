@@ -1,6 +1,6 @@
 ## Paranormal-Places
 
-Final Project for General Assembly, due Friday 
+Final Project for General Assembly. *This website was built for educational purposes only.  
 
 ![image](https://cloud.githubusercontent.com/assets/5976989/11892604/967445a0-a51e-11e5-8b2c-4a176cd14c1b.png)
 
@@ -33,7 +33,3 @@ Final Project for General Assembly, due Friday
 #### User Stories: 
 
 #### Wireframes: 
-
-#### Screenshots: 
-
-#### Pitch Deck:
