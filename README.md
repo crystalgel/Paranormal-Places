@@ -1,6 +1,6 @@
 ## Paranormal-Places
 
-Final Project for General Assembly. *This website was built for educational purposes only.  
+A project I created as a student at General Assembly. This is a MEAN stack app using a small sample database built for educational purposes only.
 
 ![image](https://cloud.githubusercontent.com/assets/5976989/11892604/967445a0-a51e-11e5-8b2c-4a176cd14c1b.png)
 
@@ -25,11 +25,9 @@ Final Project for General Assembly. *This website was built for educational purp
 - mailgun or sendgrid
 - passport or jwt
 
-#### Approach 
-
 #### Installation instructions:
 - dependencies are managed by npm. run `npm install --save`
 
-#### User Stories: 
+#### User Stories:
 
-#### Wireframes: 
+#### Wireframes: on paper
