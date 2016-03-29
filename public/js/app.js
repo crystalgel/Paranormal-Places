@@ -1,4 +1,4 @@
-var app = angular.module('paranormalApp', ['ngRoute', 'mainCtrl', 'userCtrl', 'userService', 'authService'])
+var app = angular.module('paranormalApp', ['ngRoute', 'ngResource', 'mainCtrl', 'userCtrl', 'userService', 'authService'])
 .directive('navBar', navBar)
 	//.directive('placesList', placesList)
 	.directive('searchForm', searchForm)

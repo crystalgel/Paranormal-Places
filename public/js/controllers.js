@@ -1,8 +1,9 @@
 
-app.controller('placesController', function (places, $scope) {
+app.controller('placesController', function (places, $routeParams, $scope) {
 	$scope.name = 'Place List'
 	$scope.places = []
-	places.list().success(function(response) {
+	console.log ($routeParams)
+	places.query({search:$routeParams.search}, function(response) { //put search paramaters in {}
 		$scope.places = response
 	})
 })
@@ -11,7 +12,7 @@ app.controller('placeDetailController', function (places, $routeParams, $scope) 
 	$scope.name = 'Place Detail'
 	$scope.place = null
 
-	places.show($routeParams.placeId).success(function(response) {
+	places.get({id:$routeParams.placeId}, function(response) {
 		$scope.place = response
 	})
 })
@@ -23,6 +24,11 @@ app.controller('FetchController', function($scope, $location) {
 })
 
 
-app.controller('emptyController', function($scope, $location) {
-
+app.controller('bookController', function($scope, $location, book) {
+	$scope.book = {}
+	$scope.submit = function(){
+		book.save($scope.book, function(){
+			console.log (arguments) //an array of arguments passed through the function
+		})
+	}
 })

@@ -4,6 +4,7 @@ var
 	mongoose = require('mongoose'),
 	Place = require('../models/place.js')
 	User = require('../models/user.js')
+	Book = require('../models/book.js')
 
 //middleware to use for all requests
 // apiRouter.get('/', function(req,res){
@@ -16,7 +17,9 @@ var
 apiRouter.route('/places')
 	.get(function(req,res){
 		// modify find to have req.search
-		Place.find({}, function(err, place){
+		Place.find({title: new RegExp(req.query.search, "i")}, function(err, place){
+			console.log(req.query.search)
+			if(err) throw err
 			res.json(place)
 		})
 	})
@@ -38,6 +41,25 @@ apiRouter.route('/places/:id')
 		Place.findById(req.params.id, function(err,place){
 			if(err) throw err
 			res.json(place)
+		})
+	})
+
+apiRouter.route('/book')
+	.get(function(req,res){
+		Book.findById(req.params.id, function(err,book){
+			if(err) throw err
+			res.json(place)
+		})
+	})
+	.post(function(req,res){
+		var newBook = new Book
+		newBook.email = req.body.email
+		newBook.message = req.body.message
+		newBook.survey = req.body.survey
+		newBook.totalguests = req.body.totalguests
+		newBook.save(function(err, book){
+			if(err) throw err
+			res.json({message: "Booking request Saved!", book: book})
 		})
 	})
 

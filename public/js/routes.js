@@ -21,7 +21,7 @@ app
 		})
 		.when('/book/:placeId', {
 			templateUrl: 'partials/book-form.html',
-			controller: 'emptyController',
+			controller: 'bookController',
 			action: 'book'
 		})
 
@@ -32,7 +32,8 @@ app
 			controllerAs: 'login',
 			action: 'login'
 		})
-/*
+
+		/*
 		// show all users
 		.when('/users', {
 		templateUrl: 'app/views/pages/users/all.html',

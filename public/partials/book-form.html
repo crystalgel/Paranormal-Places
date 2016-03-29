@@ -1,40 +1,44 @@
-<form class="form-horizontal">
+<form class="form-horizontal" ng-submit="submit()">
+
   <fieldset>
     <legend>Inquire about the property</legend>
     <div class="form-group">
       <label for="inputEmail" class="col-lg-2 control-label">Your Email</label>
       <div class="col-lg-10">
-        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+        <input type="text" class="form-control" ng-model="book.email" placeholder="Email">
       </div>
     </div>
+
     <div class="form-group">
       <label for="textArea" class="col-lg-2 control-label">Message</label>
       <div class="col-lg-10">
-        <textarea class="form-control" rows="3" id="textArea"></textarea>
+        <textarea class="form-control" rows="3" ng-model="book.message"></textarea>
         <span class="help-block">Send a message to the owner about the property. Make sure to include your contact information.</span>
       </div>
     </div>
+
     <div class="form-group">
       <label class="col-lg-2 control-label">Are you scared of ghosts?</label>
       <div class="col-lg-10">
         <div class="radio">
           <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+            <input type="radio" name="optionsRadios" ng-model="book.survey" value="option1" checked="">
             I ain't afraid of no ghost!
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+            <input type="radio" name="optionsRadios" ng-model="book.survey" value="option2">
             Yes, terrified!
           </label>
         </div>
       </div>
     </div>
+
     <div class="form-group">
       <label for="select" class="col-lg-2 control-label">Total human guests:</label>
       <div class="col-lg-10">
-        <select class="form-control" id="select">
+        <select class="form-control" ng-model="book.totalguests">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -51,11 +55,13 @@
         </select>
       </div>
     </div>
+
     <div class="form-group">
       <div class="col-lg-10 col-lg-offset-2">
         <button type="reset" class="btn btn-default">Cancel</button>
         <button type="submit" class="btn btn-primary">Submit</button>
       </div>
     </div>
+
   </fieldset>
 </form>
